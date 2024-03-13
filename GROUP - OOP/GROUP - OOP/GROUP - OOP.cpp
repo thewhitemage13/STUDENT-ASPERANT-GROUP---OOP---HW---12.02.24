@@ -22,14 +22,7 @@ public:
     }
 
     void PrintStudent(){
-        cout << "Surname:    " << GetSurname() << "\n";
-        cout << "Name:       " << GetName() << "\n";
-        cout << "Midlname:   " << GetMiddlName() << "\n";
-        cout << "Adress:     " << GetAdress() << "\n";
-        cout << "Phonnumber: " <<GetPhone() << "\n";
-        PrintExam();
-        PrintHomeWork();
-        PrintPractic();
+        Student :: PrintStudent();
         cout << "Thesis Topic: " << GetThesisTopic() << "\n";
     }
 };
